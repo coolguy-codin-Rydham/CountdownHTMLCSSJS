@@ -1,0 +1,51 @@
+@tailwind utilities;
+@tailwind base;
+@tailwind components;
+
+body {
+  background-position: center center;
+  font-family: "Potta One", cursive;
+  background-image: linear-gradient(
+    to left bottom,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+}
+
+body {
+  @apply  h-[100vh] ;
+}
+
+.hello {
+  @apply flex flex-col items-center min-h-[86vh] m-0 justify-center bg-cover;
+}
+
+h1 {
+  @apply font-normal text-[4rem] mt-20;
+}
+
+.countdown-container {
+  @apply flex flex-wrap items-center justify-center;
+}
+
+.big-text {
+  @apply font-bold text-[6rem] leading-none my-4 mx-8;
+}
+
+.countdown-el {
+  @apply text-center;
+}
+
+.countdown-el span {
+  @apply text-[1.3rem];
+}
